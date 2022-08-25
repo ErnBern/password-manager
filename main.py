@@ -1,4 +1,3 @@
-from itertools import filterfalse
 import string, random, os, time
 from cryptography.fernet import Fernet
 
