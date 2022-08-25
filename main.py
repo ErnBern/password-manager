@@ -1,4 +1,4 @@
-import string, random, os, time
+import string, random, os
 from cryptography.fernet import Fernet
 
 clear = ''
