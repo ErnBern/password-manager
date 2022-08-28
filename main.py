@@ -97,7 +97,9 @@ def checker(type):
                 file.write(f'\n{entry}')
                 file.close()
             return
-    if lowercase == 'e': exit()
+    if lowercase == 'e': 
+        os.clear(clear)
+        exit()
 
     if lowercase == 'd':
         order = input("Order: ")
