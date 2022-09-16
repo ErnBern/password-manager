@@ -98,7 +98,7 @@ def checker(type):
                 file.close()
             return
     if lowercase == 'e': 
-        os.clear(clear)
+        os.system(clear)
         exit()
 
     if lowercase == 'd':
