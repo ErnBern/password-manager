@@ -82,7 +82,7 @@ def checker(type):
                 place = len(passwords_array)
                 key = passwords_array[0]
             with open('passwords.txt', 'a') as file:
-                entry = encrypt(f"{place}. Website/App: {username} App: {app} Password: {password}".encode(), key)
+                entry = encrypt(f"{place}. Website/App: {app} Username: {username} Password: {password}".encode(), key)
                 file.write(f'\n{entry}')
             return
         if confirm.lower() == 'n':
@@ -93,7 +93,7 @@ def checker(type):
                 place = len(passwords_array)
                 key = passwords_array[0]
             with open('passwords.txt', 'a') as file:
-                entry = encrypt(f"{place}. Website/App: {username} App: {app} Password: {password}".encode(), key)
+                entry = encrypt(f"{place}. Website/App: {app} Username: {username} Password: {password}".encode(), key)
                 file.write(f'\n{entry}')
                 file.close()
             return
